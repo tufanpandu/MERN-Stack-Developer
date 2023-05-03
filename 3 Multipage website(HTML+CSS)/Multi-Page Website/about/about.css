@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    outline:0;
+    box-sizing:border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 7vw;
+    height: 15vh;
+
+}
+li{
+    list-style:none;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+.menu ul{
+   display:flex;
+   align-items: center; 
+   justify-content: center;
+   gap:40px;
+
+}
+
+.home a{
+   color: #20bc7e;
+   
+  
+}
+
+.branding img{
+    width:9em;
+}
+
+
+/* hero section */
+.hero{
+    margin: 15vh auto;
+}
+
+.hero h1{
+    color:#20bc7e;
+    font-size:1.8rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+.hero h2{
+    font-weight: 600;
+    text-align:center;
+    font-size:1rem;
+   
+}
+
+.hero-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10% auto 5%;
+
+}
+
+.hero-top p{
+    text-align: center;
+    margin-top:15px;
+    line-height:1.2rem;
+    font-size:400;
+    font-size:15px;
+}
+
+.hero-bottom{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.box{
+   
+    margin: 0 20px;
+    box-shadow: 1px 1px 10px #000;
+    padding:20px 50px;
+    border-radius: 12px;
+    min-width: 170px;
+}
+.box h1{
+    font-size:1.5rem;
+}
+
+
+
+
+
