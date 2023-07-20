@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    outline:0;
+    box-sizing:border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 5vw;
+    height: 15vh;
+
+}
+li{
+    list-style:none;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+.menu ul{
+   display:flex;
+   align-items: center; 
+   justify-content: center;
+   gap:40px;
+
+}
+
+.home a{
+   color: #20bc7e;
+   
+  
+}
+
+.branding img{
+    width:10em;
+}
+
+
+
+/* Hero Section */
+
+.hero{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    margin:20px 5vw 0px;
+    
+}
+/* Hero-left */
+.hero-left{
+    position: relative;
+} 
+.hero-left h1{
+    font-weight: 700;
+    font-size: 4.3rem;
+}
+
+.hero-left p{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top:25px;
+}
+
+.hero-left button{
+    font-size:1.5rem;
+    font-weight: 700;
+    background-color:#20bc7e;
+    color:#fff;
+    border-style: none;
+    padding:15px 40px;
+    border-radius: 40px;
+    margin-top:30px;
+}
+
+
+.hero-right{
+    margin-left:30px;
+  
+}
+
+img[alt="greenBox"]{
+    width:30%;
+    position: absolute;
+    right: 0;
+    top:150px;
+}
+
+img[alt="yellowBox"]{
+    width:25%;
+    position:absolute;
+    right: -5px;
+    top:190px;
+   
+}
+
+img[alt=" Doctor"]{
+    height: 90%;
+    z-index: 0;
+    position:fixed;
+    right:0;
+    
+    bottom:0;
+  
+}
+
+
+
+/* Images */
+img[alt="stethoscope"]{
+    position: absolute;
+    top:-50px;
+    left:210px;
+    right:0;
+    bottom:0;
+    width:32em;
+
+}
+
+img[alt="bottomAngle"]{
+    position:relative;
+    left:250px;
+    bottom:25px;
+}
+
+img[ alt="mouse"]{
+    position:relative;
+    left:276px;
+    bottom:-20px;
+}
+
+
+
+

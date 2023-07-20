@@ -1,0 +1,298 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background-color:#111827;
+    color:#fff;
+}
+body{
+    height:100vh;
+    width:97vw;
+
+}
+
+.navbar{
+  
+    margin:20px;
+  
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+    flex-direction: row;
+    align-items: center;
+    justify-content:right ;
+    gap:20px;
+    margin-right: 20px;
+    font-weight:400;
+    font-size:1.2rem;
+  
+}
+.navbar ul li:nth-child(1){
+    background-color:rgb(100, 100, 224);
+    padding:5px 10px;
+    border-radius:15px;
+}
+
+/* Images */
+img:hover{
+    cursor:pointer;
+}
+img[alt="waving-hand"]{
+    width:50px;
+    height:50px;
+}
+
+img[alt="hambrger"]{
+    width:30px;
+    display:none;
+}
+img[alt="pc-image"]{
+    width:30vw;
+}
+
+
+
+.hero-content{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 10px;
+    
+}
+.hero-left{
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-right:45px;
+   
+}
+.hero-left div{
+    display:flex;
+}
+.hero-left h1{
+    
+    font-size: 4.2rem;
+    letter-spacing:1px;
+}
+.hero-left div h2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size:2.5rem;
+    margin-left: 8px;;
+    font-weight: 600;
+    color:#fff;
+   
+}
+.hero-left h2{
+    font-size: 2.5rem;
+    color:rgb(197, 197, 89)
+}
+
+
+.hero-right{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+
+
+/* Project Section */
+
+.hero-project {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:70px;
+}
+
+.project-heading {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    
+  
+}
+.project-heading h1{
+    font-size:2.5rem;
+     
+}
+.project-heading p{
+    width:8.5em;
+    height:10px;
+    border-radius:10px;
+    background-color: blue;
+   
+}
+.project-image{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap:20px;
+    column-gap:20px;
+    
+
+}
+.project-image div{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+img[alt="hello"]{
+    
+    width:20vw;
+}
+
+
+/* Footer  section*/
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:70px;
+}
+.footer-header h1{
+    font-size:2.5rem;
+   
+}
+.footer-header p{
+    height:10px;
+    width:200px;
+    border-radius:20px;
+    background-color: blue;
+}
+
+.footer-social{
+    margin:30px 
+}
+
+.footer-social img{
+    height:30px;
+    width:30px;
+    margin:0 8px;
+}
+
+@media screen and (max-width:576px){
+
+    /* Navbar */
+    img[alt="hambrger"]{
+      width:25px;
+      display:unset;
+    }
+
+  .navbar ul {
+    display: none;
+    
+  }
+  
+
+
+
+
+/* Hero section */
+
+.hero-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-left{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+
+
+}
+.hero-left div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+img[alt="waving-hand"]{
+    width:40px;
+    height:40px;
+    margin-bottom:10px;
+}
+
+.hero-left div h2 ,.hero-left h2{
+    font-size:1.5rem;
+}
+.hero-left h1{
+    font-size:3rem;
+}
+
+.hero-right {
+    margin-top:40px;
+}
+
+img[alt="pc-image"]{
+    width:60vw;
+}
+
+
+.project-image {
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 20px;
+
+}
+
+img[alt="hello"]{
+    width:55vw;
+}
+
+/* footer */
+
+.footer-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-header h1{
+    font-size:35px;
+}
+.footer-header p{
+    width:180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

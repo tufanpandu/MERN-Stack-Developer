@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Red Rose', cursive;
+    
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/main.png");
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    background-attachment: fixed;
+    background-color: #e1e2df;
+    padding:15px 50px 10px;
+   
+    
+   }
+
+   /* Button */
+   .navsection button{
+    cursor: pointer;
+    color: #fff;
+    background-color: #F16767;
+    padding: 10px 20px;
+    font-weight: 400;
+    border: none;
+    width:max-content;
+    margin-right:20px;
+    letter-spacing: 2px;
+  
+}
+.mainHero button{
+    cursor: pointer;
+    color: #fff;
+    background-color: #F16767;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    width:max-content;
+    margin: 20px 45%;
+
+   }
+   button:hover{
+    background-color: #fff;
+    color:#F16767;
+   }
+.navsection{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.navsection ul {
+    display: flex;
+    list-style-type: none;
+   gap:60px;
+   padding:10px;
+    
+}
+.navsection ul li{
+
+    font-weight: 400;
+}
+.navsection ul li:hover{
+    color:rgb(59, 9, 224);
+    
+    font-weight: 700;
+    font-size: 20px;
+}
+.navsection ul li a{
+    color:#ffc233;
+    
+}
+
+/* Logo  */
+.navsection img{
+    padding:15px;
+    width:100px;
+    
+}
+
+.mainHero h1{
+    font-family: 'Red Rose', cursive;
+    display:flex;
+    font-weight: 700;
+    font-size: 5.5rem;
+    line-height: 110px;
+    align-items: center;
+    justify-content: center;
+    color: #ffc233;
+    padding:80px 0 10px;
+    letter-spacing: 2px;
+   
+ 
+}
+
+.mainHero img{
+    position: absolute;
+    width:100px;
+    height: 100px;
+    margin-left:82%;
+    
+}
+
