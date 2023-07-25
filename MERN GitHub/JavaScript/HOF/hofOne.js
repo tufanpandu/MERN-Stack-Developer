@@ -74,5 +74,16 @@ const idxNum = itmes.findIndex(findIdx);
 console.log(idxNum);
 
 /// 8️⃣ some
+// This method tests in array any of element passed test case or not
+function checkNumber(items){
+    return items > 10;
+}
+console.log(itmes.some(checkNumber));
 
 /// 9️⃣ sort
+let noCandy = [10 , 24 , 14 , 2 , 18, 10 , 35];
+// Sort in assending order
+console.log(noCandy.sort((a, b) => a-b));
+
+// Decending order
+console.log(noCandy.sort((a,b)=> b-a));
