@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color:lightslategray;
+    display:block;
+    margin: auto ;
+
+}
+
+#container{
+    background-color: #fff;
+    margin:0 auto;
+    height:760px;
+    width:591px;
+    border-radius: 12px;
+
+}
+
+/* Text style */
+#heading h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color:#1C4980;
+}
+
+/* Li style */
+li{
+    list-style: none;
+}
+
+/* Heading */
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px;   
+    border-bottom:1px solid #DADCE0;
+}
+
+
+/* Assessment Details */
+#assessment-details{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding:15px 30px;
+    position: relative;
+}
+/* Input Heading */
+
+h2{
+    font-size: 16px;
+    font-weight: 500;
+    color:#1C4980;
+    line-height: 30px;
+}
+/* Input Boxs */
+input[type="text"]{
+    outline:none;
+}
+.inputBox {
+    width:40em;
+    padding:15px; 
+    border:1px solid #DADCE0;
+    border-radius: 12px;
+}
+
+.arrow-down1{
+    position: absolute;
+    right: 65px;
+    top:160px;
+}
+
+.arrow-down2{
+    position: absolute;
+    right: 65px;
+    top:252px;
+}
+/* Skills Box */
+.skillInput{
+    background-color:transparent;
+    width:40em;
+    padding:15px; 
+    border: none;
+    border-top:1px solid #DADCE0;
+}
+
+.skills_list{
+  
+    border:1px solid #DADCE0;
+    border-radius: 12px;
+}
+
+.skills_list ul li{
+  width:fit-content;
+  background-color: #DDEDFF;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding:6px 8px 6px 10px;
+  color:#1C4980;
+}
+.skills_list ul li img{
+    margin-left: 5px;
+}
+.skills_list ul{
+ display: grid;
+ grid-template-columns:repeat(3, auto);
+ gap:10px ;
+ padding:10px
+
+   
+}
+
+
+input[name="Skills"]{
+  border-top: 1px solid #DDEDFF;
+  margin-top:10px;
+}
+
+img[alt="Cross"]{
+    height: 10px;
+    width:10px;
+}
+
+/* Button */
+#btn-container{
+    border-top: 1px solid #DDEDFF;
+}
+#save{
+    display: block;
+    width:40em;
+    font-weight: 600;
+    color:#fff;
+    background-color: #0073E6;
+    border:none;
+    border-radius: 8px;
+    padding:10px 0;
+    margin:25px auto;
+    cursor: pointer;
+}

@@ -1,0 +1,638 @@
+/* Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Full layout size */
+body{
+    width:1440px;
+    height:1532px;
+    background-color: #F6F8FA;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+li{
+   list-style: none;
+}
+
+/*  Side menu*/
+ #side-container{
+    background-color: #fff;
+    height:992px;
+    width:140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    padding:16px 20px 20px 30px;
+    position:fixed;
+    z-index: 10;
+
+ }
+/* Side menu box */
+ #side-container div{
+    height:70px;
+    width:90px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:none;
+    border-radius: 14px;
+    gap:10px;
+    cursor: pointer;
+ }
+ #side-container div span{
+    width:auto;
+    font-size: 0.75rem;
+    word-spacing: -1px;
+    font-weight: 600;
+    text-align: center;
+ }
+/* Sice menu lase chile */
+#side-container div:last-child{
+    height:fit-content;
+    border-top: 2px dotted #DADCE0;
+    border-radius:0 ;
+    padding:15px 20px 10px 20px;
+    cursor: pointer;
+}
+
+
+#side-container div:nth-child(-n+3):hover{
+  border:1px solid #0073E6;
+  background-color:#E5F1FC;
+
+}
+
+ /* Side mneu inside box icons */
+ /* .menu-icons{
+  
+ } */
+
+ /* admin */
+ #admin{
+    width:20px;
+    padding:2px 4px;
+    color:#ff0000;
+    border:1px solid red;
+    border-radius: 20px;
+    background-color: #fff;
+ }
+
+
+
+
+
+ /* Hero section */
+ #hero{
+    width:1264px; 
+    margin-left:160px;  
+   }
+   
+   /* Hero-Head */
+   #hero-head{
+      display:flex;
+      align-items: center;
+      height:70px;
+      border-bottom: 1.5px solid #DADCE0;
+      position:relative;
+      background-color: #fff;
+ }
+
+ /* Hero-head div */
+ #hero-head div{
+    height:70px ;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left:10px;
+ }
+ #hero-head div:nth-child(2){
+    
+    padding:0 10px 0 0px;
+ }
+ /* two div middle border */
+ #hero-head div:nth-child(3)::after{
+      content: " ";
+      height:46px;
+      width: 1px;
+      background-color:#DADCE0;
+      position: absolute;
+      left:0px;
+ }
+ /* My Assessment lower border */
+ #hero-head div:nth-child(3)::before{
+    content:"";
+    height:3px;
+    width:93%;
+    background-color: #0073E6;
+    position:absolute;
+    top:66px;
+
+ }
+
+ /* Hero-head first div */
+ #hero-head  div:nth-child(2) span{
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: #1C4980;
+   padding:0 10px;
+  
+ }
+/* Hero head Second div */
+ #hero-head  div:nth-child(3) span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0073E6;
+    text-align: center; 
+  }
+
+  /* Mobile screen switch  */
+  #mobile{
+   position:absolute;
+   left:27em;
+   margin: auto;
+   cursor: pointer;
+  }
+/* Hero Overview Container section */
+#hero-overview{
+   height:110vh;
+   background-color: #fff;
+   border-bottom-left-radius: 14px;
+   border-bottom-right-radius: 14px;
+}
+
+  /* Assessment Overview */
+  #overview{
+   display:flex;
+   flex-direction: column;
+   padding:20px 15px;
+   gap:14px;
+  }
+
+  #overview h1{
+   font-size: 1.125rem;
+   font-weight: 500;
+   line-height: 25px;
+   letter-spacing: 0px;
+   text-align: left;
+   color:#1C4980;
+  }
+
+  #overview h3{ 
+   font-size: 0.9rem;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: 0px;
+   text-align: left;
+   color:#1C4980;
+  }
+
+  #analytic-box{
+   display:flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+/* Box */
+.box{
+   height:114px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border:1px solid #DADCE0; 
+   gap:10px;
+   padding:10px  15px 20px 20px;
+  }
+  .box1{
+    width:210px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding:15px 50px 15px 20px;
+  }
+  .box2{
+   width:360px;
+   padding:15px 50px 15px 20px;
+  }
+  .box3{
+   width:450px;
+   padding:15px 50px 15px 20px;
+  }
+
+  .box4{
+   width:210px;
+   padding:15px 50px 15px 20px;
+   border-top-right-radius: 12px;
+   border-bottom-right-radius: 12px;
+  }
+
+
+
+  /* Assessement Nummber */
+  .box .ass-num{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#1C4980;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+  }
+
+  .ass-num div{
+   display: flex;
+   align-items: center;
+  }
+
+  /* Positive and Negetive status */
+  .inc-dic{
+   font-size: 0.75rem;
+   font-weight: 500;
+   line-height: 16px;
+   color:#05C165;
+   
+  }
+
+  /* Bottom Heading */
+  .bottom-heading{
+   width:auto;
+   font-size:0.75rem;
+   font-weight: 500;
+   line-height: 16px;
+   color:#1C4980;
+  }
+
+  /* Overview Individual div box */
+  .box ul{
+   display: inline-flex;
+   
+  }
+  .box ul li{
+   width: fit-content;
+   padding:5px 10px ;
+  }
+
+
+  /*  overview box inside middle border */
+  .box-middle-border{
+   border-right: 1px solid #DADCE0;
+  }
+
+
+
+  /* My Assessment Information section */
+  
+  #my-assessment{
+     display: flex;  
+    
+   }
+
+
+   h5{
+    font-size: 1.1rem;
+    line-height: 35px;
+    color:#1C4980;
+    font-weight: 500;
+   }
+   /* first add box */
+
+  .assessment-box-add{
+   background-color: #F6F8FA;
+   width:400px;
+   height: 209px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin:12px;
+   padding:15px;
+  border-radius: 12px;
+  }
+
+  .assessment-box-add div img{
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:10px;
+   border-radius: 72px;
+  }
+.assessment-box-add p{
+   font-size:0.7rem;
+   text-align: center;
+   line-height: 15px;
+   margin-top:8px;
+}
+
+
+
+
+
+  /* Secode and third box */
+
+  .assessment-box{
+   background-color: #fff;
+   width: 400px;
+   height: 209px;
+   display:flex;
+   flex-direction: column;
+   align-items:flex-start;
+   justify-content: space-between;
+   margin:12px;
+   padding:15px 15px 0px;
+   border: 1px solid #DADCE0;
+   border-radius: 12px;
+  }
+
+
+  .assessment-info ul{
+    display:flex;
+    gap:14px;
+    padding:18px 0px;
+    border-top:1.5px dashed #DADCE0;
+  }
+
+  .assessment-info ul li:nth-child(3){
+    padding:2px 8px 2px 6px;
+    border:1px solid #1C4980;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    display: flex;
+    gap:8px;
+    align-items: center;
+    justify-content: center;
+    margin-left:124px;
+  }
+
+  .assessment-info ul li:nth-child(4){
+   display:flex;
+   align-items: center;
+   border:none;
+   background-color: #6548EE;
+   padding:5px;
+   border-radius: 50%;
+   color:#fff;
+   font-size:0.9rem;
+   font-weight: 500;
+  }
+
+
+
+ 
+
+  /* img bag icon */
+  img[alt="Bag"]{
+   padding:13px;
+   background-color: #EBE8FD;
+   border-radius: 12px;
+  }
+
+  .job{
+   font-size: 0.9rem;
+   font-weight:600;
+   color:#1C4980;
+   padding:4px 4px 4px 0px;
+   display: flex;
+   align-items: center;
+}
+.job span{
+   font-size:0.75rem;
+   font-weight: 500;
+   color:#8DA4BF;
+   padding:3px;
+   margin-left:17px;
+   position: relative;
+  }
+  
+  .job span::before{
+   content:" ";
+   height:14px;
+   width:1px;
+   background-color:#DADCE0;
+   position:absolute;
+   right:100px;
+
+  }
+
+  ul li:nth-child(1) , ul li:nth-child(2){
+    font-size: 0.75rem;
+    font-weight: 500;
+    color:#1C4980;
+  }
+
+  /* Moblic sereen section */
+  img[alt="hambargar"] , img[alt="Laptop"] {
+   display: none;
+  }
+
+  #bottom-head{
+   display: none;
+  }
+  
+
+/* My Assessments heading */
+#myAss-heading h2, #myAss-heading  img{
+   display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* 👉👉👉 Media Queries  🧑‍💻🧑‍💻🧑‍💻🧑‍💻 */
+  @media (max-width: 375px){
+   body{
+      width:375px;
+      height: fit-content;
+      margin:auto;
+      background-color: #75d60d;
+   }
+
+/*  Not show */
+ #mobile img{
+   display: none;
+ }
+
+ #overview{
+   display: none;
+ }
+ #hero-overview{
+   width: auto;
+   height: auto;
+   background-color: #fff;
+ }
+
+ /* for Show */
+ #myAss-heading h2, #myAss-heading img{
+   display: inherit;
+  }
+   /* Image for mobild */
+   img[alt="hambargar"] , img[alt="Laptop"] {
+     display: inherit;
+     }
+
+   /* Hero Heading */
+   #hero-head{
+      align-items: center;
+
+   }
+
+   img[alt="hambargar"]{
+      padding:5px;
+      background-color:#F2F8FE;
+      color:#1C4980;
+      border-radius: 50%;
+
+   }
+
+   img[alt="Laptop"]{
+      position: absolute;
+      right:350%;
+   }
+
+
+   /* My Assessments heading */
+   #myAss-heading , #myAss-heading div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   #myAss-heading div img{
+      margin: 6px;
+   }
+   #myAss-heading h2{
+      font-size: 1rem;
+      color:#1C4980;
+   }
+
+   /*  Bottom Heading */
+   #bottom-head{
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border-bottom: 1px solid #DADCE0;
+      border-top: none;
+     }
+     #bottom-head h2{
+      font-size:0.8rem ;
+      font-weight: 500;
+      padding:17px  10px 17px 20px;
+      position: relative;
+   
+   }
+   #bottom-head h2:nth-child(1){
+      font-weight: 600;
+      color: #1C4980;
+     }
+
+     #bottom-head h2:nth-child(1)::before{
+      content:"";
+      height:3px;
+      width:93%;
+      background-color: #0073E6;
+      position:absolute;
+      bottom:0px;
+  
+     }
+   
+   #hero-head{
+      border: none;
+   }
+
+   #hero-head  div:nth-child(2) span{
+      font-size: 1rem;
+   }   
+
+    
+   #hero-head div:nth-child(3){
+      display: none;
+   } 
+   /* Menu bar */
+   #side-container{
+      display:none;
+   }
+
+   /* Hero 
+   secrtion */
+   #hero{
+      width:100vw;
+      margin: auto;
+   }
+
+
+
+  /* My Assessment */
+  #my-assessment{
+   height: 1190px;
+    flex-direction: column;
+   
+  }
+
+  .create-assessment{
+   width:100%;
+   height:159px ;
+
+  }
+
+  .assessment-box {
+    width:100%;
+    height: 128px;
+    margin-top:10px;
+  }
+
+  h5{
+   font-size: 0.9rem;
+   font-weight: 600;
+
+  }
+  .assessment-box ul{
+   width:345px;
+  }
+
+
+
+
+
+
+  }
+
+
+
+  
+
+
+
+
+
+
+

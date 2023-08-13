@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Assessment</title>
+  <!-- Link CSS  -->
+  <link rel="stylesheet" href="./createAssStyle.css">
+
+</head>
+<body>
+    <form id="container" action="" method="get">
+        <div id="heading">
+            <h1>Create New assessment</h1>
+            <img src="./icons/crossSign.svg" alt="Cross">
+        </div>
+     <div id="assessment-details">   
+        <div>
+            <h2>Name of assessment</h2>
+            <input class="inputBox" type="text" name="Name_of_assessemnt" id="nameOfAssessment" placeholder="Type Here">
+        </div>
+        <div>
+            <h2>Purpose of the test is</h2>
+            <input class="inputBox" type="text" name="Purpose_of_the_test" id="Purpose" placeholder="Select">
+            <img class="arrow-down1" src="./icons/arrow-down.svg" alt="Arrow-Down">
+        </div>
+        <div>
+            <h2>Description</h2>
+            <input class="inputBox" type="text" name="Description" id="Description" placeholder="Select">
+            <img class="arrow-down2" src="./icons/arrow-down.svg" alt="Arrow-Down">
+        </div>
+        <div>
+            <h2>Skills</h2>
+             <div class="skills_list">
+                <ul>
+                    <li>UI/UX and Design <img src="./icons/crossSign.svg" alt="Cross"></li>
+                    <li>No of Question   <img src="./icons/crossSign.svg" alt="Cross"></li>
+                    <li>Web Development  <img src="./icons/crossSign.svg" alt="Cross"></li> 
+                    <li>UI/UX and Design <img src="./icons/crossSign.svg" alt="Cross"></li>
+                    <li>Web Development  <img src="./icons/crossSign.svg" alt="Cross"></li>
+                </ul>
+                <input class="skillInput" type="text" name="Skills" id="skills" placeholder="Type here">
+             </div>
+        </div>
+        <div >
+            <h2>Duration of assessment</h2>
+            <input class="inputBox" type="text" id="duration" placeholder="HH:MM:SS">
+        </div>
+    </div>
+    <div id="btn-container">       
+    <button id="save"> Save </button>
+    </div>
+    </form>
+</body>
+</html>
