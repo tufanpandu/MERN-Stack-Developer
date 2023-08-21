@@ -1,3 +1,9 @@
+//=========================== Prototype ========
+/**
+ * -Prototype is object which is use as template for create other object.
+ * -
+ */
+
 let myHero =["Tufan", "Imran"]
 console.log(myHero)
 
@@ -33,6 +39,21 @@ console.log((myHero.tufan()));
 console.log(superHero.tufan());
 
 
+
+///===== create new object using Object.creatte()===========================
+
+const prototypeObject = {
+    // properties and methods of the prototype
+  };
+  
+  const newObj = Object.create(prototypeObject);
+  
+  // You can now add properties and methods to newObj
+  newObj.property = "value";
+  newObj.method = function() {
+    // do something
+  };
+  
 //// ======================= Inheritance =========================================
 
 const classroom = {

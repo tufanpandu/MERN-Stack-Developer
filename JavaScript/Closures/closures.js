@@ -1,5 +1,7 @@
 //==================================👉 Lexical Scoping // Closure👈================================================
-
+//Defination :- Closure in javascript allows an inner function to remembar it's outer function variable even after complete the code excetions.
+// closure use case is create private variable and function.
+//Closure : It is an inner function that has access to the outer function's variables and parameters.
 
 ///==== Example -1 =====
 
