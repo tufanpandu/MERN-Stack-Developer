@@ -1,26 +1,29 @@
+//Take two number
+let numOne =10;
+let numTwo = 2;
+// Take operator for calculation
+let operator = "*";
 
 
-function calculator(num1 , num2 , oparator){
-    let result;
-
-    switch (oparator) {
-        case "+":
-            result = num1 + num2;
+// switch statement
+function calculator(numOne, numTwo , operator){
+    let result = "";
+    switch(operator){
+         case "+":  result = numOne + numTwo;
             break;
-        case "-":
-            result = num1 -num2;
-            break;
-        case "*":
-            result = num1 * num2;
-            break;
-        case "/":
-            result = num1 / num2;
-            break;            
-        default:
-           console.log("Invalid input")
-            break;
+         case "-":  result = numOne - numTwo;  
+         break;
+         case "*":  result = numOne * numTwo;
+         break;
+         case "/": result = numOne / numTwo;
+         break;
+         default: result = "Not a valid Operator"
+                   
     }
-    console.log(result);
+  return result;
 }
-
-console.log(calculator(2, 10 , "+"));
+console.log(calculator(10 , 20 , "+"));
+console.log(calculator(40, 25 , "-"));
+console.log(calculator(5, 25 , "*"));
+console.log(calculator(140 , 20, "/"));
+console.log(calculator(20 , 50 , "%"));
