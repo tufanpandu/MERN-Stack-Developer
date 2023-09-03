@@ -5,7 +5,7 @@ const discountPercentage = (orgPrice , disPrice) =>{
     let discount  = (save /orgPrice ) * 100;
 
     console.log(`Congratutalion ! You  Save ₹${save} on your order.`);
-    console.log(`With discount of ${discount}% .`);
+    console.log(`With discount of ${Math.floor(discount.toFixed(2))}% .`);
 }
 
-discountPercentage(200 , 190);
+discountPercentage(200 , 174);
