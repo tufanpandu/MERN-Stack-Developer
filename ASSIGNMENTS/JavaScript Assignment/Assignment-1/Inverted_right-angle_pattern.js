@@ -1,12 +1,12 @@
 //======== Inverted right angled triangle pattern with asterisks =======================
 
 function invertedRightAnglePattern(input){
-    for(let i =0; i<= input;i++){//row
-        let row = " " 
-        for(let j = 0 ; j <= input-i;j++){ //columns
-            row += "*" // append asterisk to row variable
+    for(let row =0; row<= input;row++){//row
+        let pattern = " " 
+        for(let star = 0 ; star <= input-row;star++){ //columns
+            pattern += "*" // append asterisk to row variable
         }
-        console.log(row); // print the row variable.
+        console.log(pattern); // print the row variable.
     }
 }
 
