@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #56dafa;
+    width: 100vw;
+    height: 100vh;
+    padding-top : 100px;
+   
+}
+
+#box{
+    margin: auto;
+    height: 20vh;
+    width:fit-content;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+/* #box div :nth-child(2){
+    display: none;
+} */
+
+button{
+    margin-top:20px;
+    padding:12px 24px;
+    border-radius: 12px;
+    border:none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
