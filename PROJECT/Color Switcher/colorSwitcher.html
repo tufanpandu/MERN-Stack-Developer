@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        #contener{
+          display: flex;  
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+        .box{
+            height:100px;
+            width: 100px;
+            background-color: #fff;
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+        #lawngreen{
+            background-color: lawngreen;
+        }
+        #aqua{
+            background-color: aqua;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #hotpink{
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body style="background-color:#212121; color:#fff;">
+        <h1>Colour Scheme Switcher</h1>
+    <div id="contener">
+         <div class="box" id="lawngreen"></div>
+         <div class="box" id="aqua"></div>
+         <div class="box" id="blue"></div>
+         <div class="box" id="hotpink"></div>
+    </div>
+    <p>Try picking on one of the colors above to change the background color of this page</p>
+    <!-- Javascript -->
+    <script>
+        //select body
+        const body =document.querySelector("body");
+        //Select box
+        const box =document.querySelectorAll(".box");
+        console.log(box);
+
+        //Iterate over box using forEach loop
+        box.forEach(function(box){
+           //add click event to the box
+           box.addEventListener("click", function(el){
+              let boxColor = el.target.id;
+             if(boxColor == "lawngreen"){
+                body.style.backgroundColor = boxColor;//lawngreen
+             }else  if(boxColor == "aqua"){
+                body.style.backgroundColor = boxColor;//aqua
+             } if(boxColor == "blue"){
+                body.style.backgroundColor = boxColor;//blue
+             } if(boxColor == "hotpink"){
+                body.style.backgroundColor = boxColor;//hotpink
+             }   
+           });
+        });
+    </script>
+</body>
+</html>
