@@ -28,12 +28,12 @@ body{
 li{
     width:fit-content;
     background-color:#c5e1e6;
-    list-style:none;
     padding:8px 10px;
     border-radius: 4px;
     margin: 10px 0;
 }
-ul{
+ol{
+    width:25em;
     flex-wrap: wrap;
     overflow: hidden;
 }
