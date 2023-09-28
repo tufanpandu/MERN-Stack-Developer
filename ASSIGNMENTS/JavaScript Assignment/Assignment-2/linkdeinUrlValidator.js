@@ -6,7 +6,7 @@ function linkedinUrlValidator(inputUrl){
     if(pattern.test(inputUrl)){
         console.log("Enter Linkedin profile URL is correct.");
     }else{
-        console.log("Enter Valid URL");
+        console.log("Sorry ! Enter Valid URL");
     }
 }
 
