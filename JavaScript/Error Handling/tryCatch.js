@@ -3,6 +3,13 @@
 //Try is for tested the code 
 // Catch is for excecute the code
 //Finally is print no matter Error is have or not .
+/**
+ * ->Error are two types in javascript 
+ * - (1) Syntax Error:- When you write not proper syntax then javascript interpretor is not able to compail code and throw error.
+ * - (2) Runtime Error:- When execute a if variable or function are not found or undefined the throw the runtime error.
+ * 
+ * - Using Try Catch or finally method we handle Runtime Error and syntax error is by default javascript detect.
+ */
 
 try{
     console.log("Tufan") // it's not show any error

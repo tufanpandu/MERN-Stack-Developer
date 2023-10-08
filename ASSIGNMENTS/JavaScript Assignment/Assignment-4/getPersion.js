@@ -16,4 +16,4 @@ function getPersion(persion){
 }
 console.log(getPersion(persion));
 console.log(getPersion({name:"Pushpanjali"}));
-console.log(getPersion(["name", "Kailash"]));
+console.log(getPersion(["name","Kailash"]));

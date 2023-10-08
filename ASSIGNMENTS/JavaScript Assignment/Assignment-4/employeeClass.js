@@ -1,4 +1,4 @@
-class employee{
+class Employee{
     constructor(name,position,salary){
         this.name = name;
         this.position = position;
@@ -11,6 +11,6 @@ class employee{
 }
 
 //Instation of Employee Class
-const employeeSalary = new employee("Tufan Chandra Pandu" , "Full Stack Developer" , 80000);
+const employeeSalary = new Employee("Tufan Chandra Pandu" , "Full Stack Developer" , 80000);
 //call the method
 console.log(employeeSalary.getSalary() + "K Doller");

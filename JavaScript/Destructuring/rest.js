@@ -6,7 +6,7 @@
 /// 3-  Arrow function don't have their own "arguments" object.
 
 /// Array.from()
-/// Array.from( ) is used for create new array frome an iterabel object.
+/// Array.from() is used for create new array from an iterabel object.
 // function manyArguments(){
 //    let args = Array.from(arguments);
 //    let storArgs = args.forEach(el => el);
