@@ -6,19 +6,19 @@ class User{
         this.password = password;
     }
 
-    get getPassword(){
+     getPassword(){
         return this.password.replace(/./g, '*') ;
     }
 
     
-    set setPassword(pw){
+     setPassword(pw){
         //Use Ragular Expression for check condions
          let hasNumber = /\d/g.test(pw); // Check at last one number
          let hasUpperChar = /[A-Z]/.test(pw); // chech at last one Upper Character
         if(pw.length >= 8 && hasNumber && hasUpperChar ){
             this.password = pw;
         }else{
-            throw new Error("Invalid Password");
+            console.log("Invalid Password");
         }
     }
 }
@@ -30,11 +30,11 @@ class UserOne {
         this.password = password;
     }
 
-    get getPassword(){
+     getPassword(){
         return this.password.replace(/./g , '*');
     }
 
-    set setPassword(pw){
+     setPassword(pw){
         let hasNumber = false;
         let hasUpperChar = false;
   for(let i =0;i<pw.length;i++){ // Iterate on PW 
@@ -56,8 +56,10 @@ class UserOne {
 }
 
 const result = new User("Tufan" ,"Tufan*1998" );
-console.log(result.getPassword);
+console.log(result.getPassword());
+result.setPassword("pondu")
 
 console.log("Approch 2 is starting");
 const resultOne = new UserOne("Pondu" , "Tufan*1998");
-console.log(resultOne.getPassword);
+console.log(resultOne.getPassword());
+resultOne.setPassword("Tufan")
