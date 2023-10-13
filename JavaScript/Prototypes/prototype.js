@@ -10,7 +10,7 @@ console.log(myHero)
 // Ex -1
 let myName = "TufanPnadu       "
 console.log(myName.length); // find length
-console.log(myName.length); // fint length with space.
+console.log(myName.length); // find length with space.
 console.log(myName.trim().length); // get true length.
 
 // Ex -2
@@ -27,14 +27,14 @@ let superHero = {
 console.log(superHero.spidermanPower());
 
 
-/// Give Function acesses to all the data type .
+/// Give Function acesses to all the data type in JS because in js Array, String, function and Object all are object.
 
 Object.prototype.tufan = function(){
     console.log("Tufan method is give acesses to all the data type.")
 }
 
 //myHero array variable  don't have tufan method . but we can access
-console.log((myHero.tufan()));
+console.log(myHero.tufan());
 
 console.log(superHero.tufan());
 
@@ -67,9 +67,9 @@ const teacher ={
      // first method
     // __proto__ : classroom // Inhouse proto inject.
 }
-// Secod mehtod
+// Second method
 //teacher.__proto__ = classroom; //Outside proto inject.
-// Third or Morder mehod syntax 
+// Third or Morden method syntax 
 Object.setPrototypeOf(teacher ,classroom)
 
 console.log(teacher.noRoom); // 1st method
