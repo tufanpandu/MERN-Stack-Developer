@@ -9,8 +9,7 @@ element is doubled using the callback.
 function double(num){
     return num *2; //double logic
 }
-function intDouble(intArr, double ){
-    //let result = []; //Initialze the array
+function doubleArray(intArr, double ){
  return intArr.map((num)=>{ //You can directly return because map return new Array without modify the original array.
        return double(num);
   })
@@ -18,4 +17,4 @@ function intDouble(intArr, double ){
 }
 
 const intArr = [2,5,8,6];
-console.log(intDouble(intArr,double))
+console.log(doubleArray(intArr,double))
