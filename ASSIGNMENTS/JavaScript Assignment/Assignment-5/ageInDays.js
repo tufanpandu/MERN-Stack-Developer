@@ -18,7 +18,7 @@ function logResult(fullName, ageInDays){
 
 function ageInDays(person,logResult){
   let fullName = person.firstName.concat(" ", person.lastName);
-  let ageInDays = 25 * 365;  //Caluclat age in days
+  let ageInDays = person.age * 365;  //Caluclat age in days
   return logResult(fullName,ageInDays);
 }
 
