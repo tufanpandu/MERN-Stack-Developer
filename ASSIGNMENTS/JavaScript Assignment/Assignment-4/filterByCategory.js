@@ -21,7 +21,7 @@ function filterByCategory(products){
   }
 }
 
-//call the filterByCategory function with product array as argumend and immediately ivoike the returned function with the "Category " argument "Accessories"
+//call the filterByCategory function with product array as argumend and immediately invoike the returned function with the "Category " argument "Accessories"
 const output = filterByCategory(products)("Accessories");
 console.log(output);
 
