@@ -1,7 +1,7 @@
 class Product{
     #name;
     constructor(n,p,r){
-        this.name = n;
+        this.#name = n;
         this.price =p;
         this.rating = r;
     }
