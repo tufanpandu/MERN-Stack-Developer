@@ -1,0 +1,95 @@
+
+      [
+        {
+        "id": 1,
+        "name": "Cotton T-Shirt",
+        "category": "Men's Apparel",
+        "price": 19.99,
+        "color": ["Black", "White", "Gray"],
+        "sizes": ["S", "M", "L", "XL"],
+        "brand": "ComfortWear"
+      },
+      {
+        "id": 2,
+        "name": "Slim Fit Jeans",
+        "category": "Men's Bottoms",
+        "price": 39.99,
+        "color": ["Blue", "Black"],
+        "sizes": ["28", "30", "32", "34"],
+        "brand": "StyleDenim"
+      },
+      {
+        "id": 3,
+        "name": "Classic Oxford Shirt",
+        "category": "Men's Shirts",
+        "price": 29.99,
+        "color": ["White", "Blue", "Striped"],
+        "sizes": ["M", "L", "XL"],
+        "brand": "EleganceWear"
+      },
+      {
+        "id": 4,
+        "name": "Hooded Sweatshirt",
+        "category": "Men's Outerwear",
+        "price": 49.99,
+        "color": ["Red", "Gray", "Navy"],
+        "sizes": ["S", "M", "L"],
+        "brand": "SportEssentials"
+      },
+      {
+        "id": 5,
+        "name": "Cargo Shorts",
+        "category": "Men's Bottoms",
+        "price": 24.99,
+        "color": ["Khaki", "Green", "Brown"],
+        "sizes": ["30", "32", "34"],
+        "brand": "AdventureGear"
+      },
+      {
+        "id": 6,
+        "name": "V-Neck Sweater",
+        "category": "Men's Sweaters",
+        "price": 34.99,
+        "color": ["Navy", "Gray", "Burgundy"],
+        "sizes": ["S", "M", "L"],
+        "brand": "WarmKnits"
+      },
+      {
+        "id": 7,
+        "name": "Leather Jacket",
+        "category": "Men's Outerwear",
+        "price": 89.99,
+        "color": ["Black", "Brown"],
+        "sizes": ["M", "L", "XL"],
+        "brand": "UrbanRider"
+      },
+      {
+        "id": 8,
+        "name": "Polo Shirt",
+        "category": "Men's Shirts",
+        "price": 22.99,
+        "color": ["Green", "Blue", "White"],
+        "sizes": ["M", "L", "XL"],
+        "brand": "CasualChic"
+      },
+      {
+        "id": 9,
+        "name": "Denim Jacket",
+        "category": "Men's Outerwear",
+        "price": 59.99,
+        "color": ["Denim Blue"],
+        "sizes": ["S", "M", "L"],
+        "brand": "DenimStyle"
+      },
+      {
+        "id": 10,
+        "name": "Chino Pants",
+        "category": "Men's Bottoms",
+        "price": 29.99,
+        "color": ["Beige", "Navy", "Gray"],
+        "sizes": ["30", "32", "34"],
+        "brand": "CityChic"
+      }
+      ]
+  
+  
