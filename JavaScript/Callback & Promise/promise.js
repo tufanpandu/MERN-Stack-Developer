@@ -48,3 +48,26 @@ promiseOne.then(function(num){
     console.log("Value is very low : " + error)
 })
 
+
+//imp-👉  resolve and reject method have takes only one parameter for passing multiple parameter we have to bind all the paremeter in object or array. 
+
+
+let tufanPromises = new Promise((resolve,reject)=>{
+    
+    let des = false;
+    
+    if(des){
+        resolve(["Resolve the problem", des]);  // Bind parameter in array
+    }else{
+        reject({issue:"Reject the problem", msg: des}); // combaine parameter in object
+    }
+});
+
+
+tufanPromises.then((msg)=>{
+     console.log("Your problem is : " , msg[0]);
+     console.log("Your decision is : " , msg[1]);
+}).catch((msg, d)=>{
+     console.log("Your problem is : " , msg.issue);
+     console.log("Your decision is : " , msg.msg);
+})
